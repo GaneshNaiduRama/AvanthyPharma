@@ -1,0 +1,327 @@
+
+html {
+    scroll-behavior: smooth;
+}
+main {
+    padding-top: 110px;
+}
+
+.navbar ul li,.offcanvas-body ul li {
+    font-family: myfont;
+    
+}
+.offcanvas-body ul li a {
+    color: rgb(0, 0, 0);
+}
+.offcanvas-body ul li a:hover {
+    color: rgb(100, 46, 46);
+}
+.navbar li a:hover {
+color: rgb(147, 100, 100);
+background-color: rgb(138, 138, 171);
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Fonts/Menistra\ Italic\ DEMO\ VERSION.ttf);
+}
+footer {
+    color: aliceblue;
+}
+footer h6 {
+font-family: myfont2;
+}
+@font-face {
+    font-family: myfont2;
+    src: url(Fonts/La\ Tequila.ttf);
+}
+footer a {
+    text-decoration:  none;
+}
+footer a i {
+    color: aliceblue;
+}
+footer .col-md-8 p {
+    text-align: justify;
+}
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+.carousel-item {
+    height: 100%;  
+}
+.carousel-inner {
+    height: 600px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  
+    padding: 20px; /* Padding */
+}
+.carousel-caption h5,
+.carousel-caption p {
+    color: #180707; /* Text color */
+    padding: 20px; /* Padding */
+    text-shadow: 2px 2px 4px rgba(39, 29, 29, 0.5); /* Shadow effect */
+}
+
+#carouseltext {
+    font-family: carouselfont;
+}
+@font-face {
+    font-family: carouselfont;
+    src: url(Fonts/PAC\ LIBERTAS\ font.ttf);
+}
+
+
+
+.navbar img {
+    height: 100px;
+    width: 150px;
+}
+header {
+    top:0;
+}
+#bi1 {
+    height: 400px;
+  background: url(https://www.dailyrounds.org/blog/wp-content/uploads/2019/11/5ceadad75f958.jpg);
+background-repeat: no-repeat;
+background-size:100% 100% ;
+
+
+}
+#bi2 {
+    height: 400px;
+  background: url(https://akm-img-a-in.tosshub.com/businesstoday/images/story/202210/64e01bf1f7dbd9099e249e9c3247fdbb9a46b4b1-1280x720-sixteen_nine.jpg?size=948:533);
+background-repeat: no-repeat;
+background-size:100% 100% ;
+}
+#imgscale {
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Ensures the image doesn't overflow the div */
+}
+
+#imgscale img {
+    width: 100%;
+    height: 300px;
+    transition: transform 1s ease; /* Adding transition effect */
+}
+
+#imgscale img:hover {
+    transform: scale(1.06);
+}
+#myBtn {
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px ;
+}
+.card {
+    margin-top: 20px;
+}
+.card-text,.card-body {
+    background-color: rgb(146, 78, 78);
+    text-align: justify;
+   
+}
+.card-body {
+    box-shadow: 5px 10px 5px rgb(82, 73, 73);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-body:hover {
+    box-shadow: 5px 10px 5px black;
+    transition-duration: 0.7s;
+}
+#products .col-md-3 {
+    padding: 20px;
+}
+#products h1 {
+    font-family: myfont4;
+}
+@font-face {
+    font-family: myfont4;
+    src: url(Fonts/ObliviousFont.ttf);
+}
+#products h4 {
+    background-color: rgb(169, 143, 143);
+    font-family: myfont3;
+padding: 10px 15px 10px 15px ;
+box-shadow: 5px 8px 5px rgb(70, 52, 52);
+}
+#products h4:hover {
+    font-family: myfont3;
+padding: 10px 15px 10px 15px ;
+box-shadow: 5px 8px 5px rgb(88, 41, 41);
+}
+@font-face {
+    font-family: myfont3;
+    src: url(Fonts/NovaMono.ttf);
+}
+#contactform {
+    background-color: brown;
+    opacity: 0.8;
+   border-radius: 5px;
+}
+#contactform-animations {
+transition-duration: 2s;
+}
+#contactusbg {
+    background-color: pink;
+}
+
+input {
+    width: 100%;
+margin-bottom: 20px;
+  
+}
+#news .container {
+    border: 1px solid rgb(107, 83, 83);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+#news .col-md-6 {
+    display: flex;
+}
+#aboutus ul li {
+    padding-bottom: 20px;
+}
+#aboutusbg {
+    background-image: url(Assets/pharma_stocks_1677749511261_1677749511448_1677749511448.webp);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+#mission img {
+height: 300px;
+width: 100%;
+border-radius: 15px;
+}
+#mission #profile {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#Business {
+    background-color: aquamarine;
+}
+#Business .col-md-4 {
+padding-bottom: 20px;
+}
+#business-operations h5 {
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#business-operations .card {
+    width: 100%;
+}
+#business-operations img {
+    height: 300px;
+}
+#business-operations img:hover {
+    transform: scale(1.05);
+    transition-duration: .6s;
+}
+#Careers button {
+    border-radius: 20px;
+}
+#Careers button a {
+
+    text-decoration: none;
+}
+#Careers button a:hover {
+    color: aliceblue;
+}
+#Careers button:hover {
+    background-color: rgb(5, 5, 71);
+    color: rgb(255, 255, 255);
+}
+#CareersForm {
+    border: 2px solid rgb(60, 149, 106);
+    background-color: green;
+    border-radius: 20px;
+}
+#contactus-location {
+    font-family: contactus-location;
+}
+@font-face {
+    font-family: contactus-location;
+    src: url(Fonts/ethnocentric\ rg\ it.otf);
+}
+#CareersHeader {
+    font-family: CareersHeader;
+    background-color: azure;
+}
+@font-face {
+    font-family: CareersHeader;
+    src: url(Fonts/conthrax-sb.otf);
+}
+#Investors img {
+    height: 300px;
+    width: 100%;
+}
+#Investors h1,h2 {
+    font-weight: bold;
+    color: aqua;
+}
+#Investors h4 {
+    color: blue;
+}
+#Media {
+    position: relative; /* Ensure the section is positioned relatively */
+    background-image: url(https://media.istockphoto.com/id/1480574526/photo/happy-multigenerational-people-having-fun-sitting-on-grass-in-a-public-park.jpg?s=2048x2048&w=is&k=20&c=b2yrJ_XBjqOeKbzVv6JcWdDrgXZ7FQ1kacnWGj8mtP0=);
+    height: 400px;
+    background-size: cover;
+}
+
+#MediaInfo {
+    position: absolute; /* Position the element absolutely within its containing block */
+    left: 0; /* Position the element to the left */
+    background-color: blue; /* Set background color to blue */
+    padding: 20px; /* Add some padding for better readability */
+    color: white; /* Set text color to white for better contrast */
+    
+}
+#PressReleases {
+    background-color: beige;
+}
+#PressReleases .col-md-6 {
+margin-bottom: 20px;
+}
+#PressReleaseHeading {
+   font-family:CareersHeader ;
+}
+#Environment-bg {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HdXDcMw96W-Fa0A0CXRSv1ToMMkjA2rTaxZe2Nc96HzRJsqd4qlLvecOgmnS8DfnNyg&usqp=CAU);
+    background-size: cover;
+    text-align: justify;
+}
+#Environment-heading {
+    font-family: myfont3;
+}
+#Community {
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/istock-185007003-136f9e8989639bcd66fdf25b33db70dc.jpg);
+    background-size: cover;
+    height: 200px;
+    justify-content: center;
+    
+
+}
+#People {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYu-LS53G1UVyscl9B3tjNTQwtMjn8t__7w&usqp=CAU);
+    background-size: cover;
+    height: 200px;
+}
+#People p,#Community p {
+    font-family: myfont3;
+}
+#People p:hover,#Community p:hover {
+    background-color: blue;
+} 
